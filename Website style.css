@@ -1,0 +1,310 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: #fbe4ce;
+}
+
+header nav {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    justify-content: space-between;
+  
+}
+
+header nav aside {
+    height: 100%;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    height: 100%;
+    align-items: center;
+    margin: 0px;
+}
+
+header nav ul li{
+    margin: 0px 12px;
+    font-size: 17px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:rgb(44, 44, 44)
+} 
+
+main .banner-area{
+    padding: 40px 0px 0px 0px;
+
+}
+main .banner-area p{
+    text-align: center;
+    letter-spacing: 2.5px;
+    font-size: 18px;
+    color:rgb(44, 44, 44)
+}
+main .banner-area h1{
+    text-align: center;
+    margin-top: 15px;
+    font-family: none;
+    color: rgb(44, 44, 44);
+    font-size: 55px;
+}
+
+main .banner-area img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}   /* აქ დასრულდა სათაურზე მუშაობა ტექსტებზე და მთავარ ბანერზე და იწყება ქარდებზე მუშაობა*/
+
+main .cards-area{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .cards-area .card1{
+    width: 30%;
+    margin-top: 130px;
+    min-width: 300px;
+    height: 300px;
+    background: url("./Assets/Breakfast\ parfiat.jfif");
+    background-size: cover;
+
+}
+main .cards-area .card2{
+    width: 30%;
+    margin-top: 130px;
+    min-width: 300px;
+    height: 300px;
+    background: url("./Assets/Banana\ Berry\ Acai\ Bowl.jfif");
+    background-size: cover;
+
+}
+main .cards-area .card3{
+    width: 30%;
+    margin-top: 130px;
+    min-width: 300px;
+    height: 300px;
+    background: url("./Assets/Healthy\ Chicken\ Pasta\ Salad\ with\ Avocado\,\ Tomato\,\ and\ Basil\ _.jfif");
+    background-size: cover;
+
+}
+
+main .cards-area .card1 div{
+    width: 75%;
+    margin: auto;
+    margin-top: 70%;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #fbe4ce;
+}
+
+main .cards-area .card2 div{
+    width: 75%;
+    margin: auto;
+    margin-top: 70%;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #fbe4ce;
+}
+
+main .cards-area .card3 div{
+    width: 75%;
+    margin: auto;
+    margin-top: 70%;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #fbe4ce;
+}
+
+main .cards-area .card1 div h2{
+    margin-bottom: 7px;
+    
+}
+
+main .cards-area .card2 div h2{
+    margin-bottom: 7px;
+ 
+}
+
+main .cards-area .card3 div h2{
+    margin-bottom: 7px;
+   
+}
+
+main .cards-area .card1 div a{
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+    font-size: 15px;
+
+}
+
+main .cards-area .card2 div a{
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+    font-size: 15px;
+
+}
+
+main .cards-area .card3 div a{
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+    font-size: 15px;
+
+}
+
+main .card1 hr{
+    width: 20px;
+    border-color: black;
+    margin-top: 15px;
+
+}
+
+main .card2 hr{
+    width: 20px;
+    border-color: black;
+    margin-top: 15px;
+
+}
+main .card3 hr{
+    width: 20px;
+    border-color: black;
+    margin-top: 15px;
+
+} /* დასრულდა ქარდებზე მუშაობა და გადავდივარ პოსტებზე მუშაობაზე*/
+
+.posts-area{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.posts-area .left{
+    width: 70%;
+    min-width: 400px;
+}
+
+.posts-area .right{
+    width: 24%;
+    min-width: 300px;
+}
+
+.big-post{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.big-post img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.post-content{
+    padding: 30px 30px 30px 50px;
+}
+
+.post-content .top{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.post-content .top p {
+    margin: 3px 0px 2px 0px;
+    font-size: 13px;
+    color: rgb(55, 55, 55);
+}
+
+.post-content .top span{
+    font-size: 12px;
+    color: rgb(100, 100, 100);
+}
+
+.post-content .fa-circle-user{
+    font-size: 40px;
+    color: rgb(140, 140, 140);
+}
+
+.post-info {
+    text-decoration: none;
+}
+
+.post-info h3  {
+    color: rgb(33, 33, 33);
+    font-size: 27px;
+    font-family: none;
+    margin: 7px 0px 7px 0 px;
+}
+
+.post-info p {
+    color: rgb(100, 100, 100);
+    margin-top: 3px;
+}
+
+.comment-like{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-like p {
+    font-size: 14px;
+    color: rgb(140, 140, 140);
+    margin-top: 0px;
+}
+
+.comment-like a {
+    font-size: 14px;
+    color: rgb(140, 140, 140);
+    text-decoration: none;
+}
+
+.comment-like i{
+    color: red;
+    font-size: 15px;
+}
+/* ვიწყებ გვერდის მარჯვენა მხარეზე მუშაობას*/
+.small-post{
+    width: 100%;
+}
+.small-post img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.small-post .description{
+    padding: 15px 25px;
+    color: rgb(55, 55, 55);
+    background: #eaf2f5;
+}
+/*იწყება ბოლო ნაწილი გვერდის ანუ გალერია*/
+.image-gallery{
+    width: 100%;
+    display: flex;
+}
+
+.image-gallery img{
+    width: 20%;
+    height: 250px;
+    object-fit: cover;
+}
+
